@@ -1,0 +1,100 @@
+﻿
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+/* header style */
+.header-bar {
+    background-color: #f8e24d;
+    color: #fff;
+}
+
+.navbar-toggle {
+	margin-top: -20px;
+	padding:0px;
+	padding-right: 10px;
+}
+
+.title-name {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.title-tag {
+    font-size: 22px;
+    font-weight: 500;
+	margin-top:-7px;
+	padding-bottom:5px;
+}
+
+@media screen and (max-width: 768px) {
+	.title-name {
+  	  	font-size: 32px;
+	}
+	.title-tag {
+		font-size: 18px;
+		margin-top:-9px;
+		padding-bottom:3px;
+	}
+	
+}
+
+.header-social{
+	padding-top:15px;
+}
+
+
+.title-email{
+    padding-bottom: 7px;
+}
+
+.title-email a {
+	color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+	margin-bottom: 5px;
+}
+
+
+.title-email img {
+    margin-top: -7px;
+    margin-right: 10px;
+}
+.title-links a {
+	color:#fff;
+    font-size: 16px;
+    font-weight: 300;
+	padding-right: 15px;
+}
+
+.title-links img{
+	margin-top: -7px;
+}
+
+/* Menu Style */
+
+
+.navbar-nav li{
+	padding: 15px;
+}
+
+.menu-items-light{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #778899;
+}
+
+.menu-items-dark{
+	padding-top: 15px;
+	background-color: #2F4F4F;
+}
+
+.menu-items-light a , .menu-items-dark a  {
+	font-size: 22px;
+	color: #fff;
+	margin: 15px;
+}
+
+
+
