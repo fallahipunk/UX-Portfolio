@@ -3,7 +3,7 @@ body {
     font-family: 'Hind', sans-serif;
 }
 
-/* header style */
+/*   ------- Header & Navbar Style ---------- */
 .header-bar {
     background-color: #f8e24d;
     color: #fff;
@@ -96,12 +96,61 @@ body {
 	margin: 15px;
 }
 
-
 .img-display img{
 	width: 100%;
 	max-width: 1000px;
     display:block;
     margin:auto;
+}
+
+/* ---- Homepage Header Styling ----- */
+
+.home-tools-section , .home-client-section , .home-research-section , .home-graphic-section {
+	padding: 40px;
+}
+.home-tools-section{
+	background-color: 	#DCDCDC;
+}
+
+.home-client-section{
+	background-color: 	#778899;
+}
+
+.home-research-section{
+	background-color: 	#A9A9A9;
+}
+
+.home-graphic-section{
+	background-color: 	#2F4F4F;
+}
+
+
+
+
+
+.home-section-title {
+	font-size: 32px;
+	background-color: #fff;	
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+
+
+.home-section-description
+{
+	background-color: black;
+	color: white;
+}
+
+@media screen and (min-width: 1200px) {
+	.home-section-title {
+	font-size: 24px;
+	}
+
+	@media screen and (min-width: 1450px) {
+		.home-section-title {
+		font-size: 32px;
+		}
 }
 
 
