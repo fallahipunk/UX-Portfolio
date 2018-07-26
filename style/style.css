@@ -1,9 +1,17 @@
 ﻿
 body {
-    font-family: 'Hind', sans-serif;
+	font-family: 'Hind', sans-serif;
+	background-color: #f8e24d;
 }
 
-/*   ------- Header & Navbar Style ---------- */
+a:hover {
+	text-decoration:none;
+}
+
+.text{
+	padding: 40px;
+}
+/*   ------- Header & Navbar  ---------- */
 .header-bar {
     background-color: #f8e24d;
     color: #fff;
@@ -102,14 +110,39 @@ body {
     display:block;
     margin:auto;
 }
+ 
+/*------ Home Page Intro  ------*/
+.home-intro-wrapper{
+	background-color: black;
+}
 
-/* ---- Homepage Header Styling ----- */
+.home-intro{
+	color: white;
+}
+
+.home-intro img{
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+}
+
+@media screen and (min-width: 768px) {
+	.home-intro {
+		font-size: 20px;
+	}
+	}
+
+
+	
+
+/* ---- Home Page Buttons ----- */
 
 .home-tools-section , .home-client-section , .home-research-section , .home-graphic-section {
-	padding: 40px;
+	padding: 30px;
 }
 .home-tools-section{
-	background-color: 	#DCDCDC;
+	background-color: 	#2F4F4F;
 }
 
 .home-client-section{
@@ -117,11 +150,12 @@ body {
 }
 
 .home-research-section{
-	background-color: 	#A9A9A9;
+	background-color: 	#2F4F4F
+	;
 }
 
 .home-graphic-section{
-	background-color: 	#2F4F4F;
+	background-color: 	#778899;
 }
 
 
@@ -131,8 +165,10 @@ body {
 .home-section-title {
 	font-size: 32px;
 	background-color: #fff;	
-	padding-left: 10px;
-	padding-right: 10px; 
+	/* padding-left: 10px;
+	padding-right: 10px; */
+	color: black;
+	
 }
 
 
@@ -146,6 +182,7 @@ body {
 	.home-section-title {
 	font-size: 24px;
 	}
+}
 
 	@media screen and (min-width: 1450px) {
 		.home-section-title {
