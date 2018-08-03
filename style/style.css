@@ -73,12 +73,17 @@ a:hover {
 	color:#fff;
     font-size: 16px;
     font-weight: 300;
-	padding-right: 15px;
+	padding-right: 30px;
+}
+.title-links{
+	padding:10px;
+	padding-left:0px;
 }
 
 .title-links img{
 	margin-top: -7px;
 }
+
 
 /* Menu Style */
 
@@ -140,44 +145,53 @@ a:hover {
 
 .home-tools-section , .home-client-section , .home-research-section , .home-graphic-section {
 	padding: 30px;
-	text-align: center;
+	text-align: left;
 }
 .home-tools-section{
 	background-color: 	#2F4F4F;
+	
 }
 
 .home-client-section{
+
 	background-color: 	#778899;
 }
 
+/*
 .home-research-section{
 	background-color: 	#2F4F4F
 	;
-}
+} */
 
 .home-graphic-section{
+
 	background-color: 	#778899;
 }
 
-
+@media screen and (min-width: 992px) {
+	.home-tools-section{
+		text-align: center;
+	}
+}
 
 
 
 .home-section-title {
 	font-size: 32px;
-	background-color: #fff;	
-	/* padding-left: 10px;
-	padding-right: 10px; */
-	color: black;
+
+	color: white;
 	
 }
 
 
 .home-section-description
 {
-	background-color: black;
+
 	color: white;
+	font-weight: 100;
 }
+
+
 
 @media screen and (min-width: 1200px) {
 	.home-section-title {
