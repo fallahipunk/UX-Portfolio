@@ -8,8 +8,18 @@ a:hover {
 	text-decoration:none;
 }
 
+h5{
+	font-size: 18px;
+}
+
+.wrapper{
+	background-color: #F5F5F5;
+	padding: 35px;
+}
+
 .text{
 	padding: 40px;
+
 }
 /*   ------- Header & Navbar  ---------- */
 .header-bar {
@@ -75,6 +85,7 @@ a:hover {
     font-weight: 300;
 	padding-right: 30px;
 }
+
 .title-links{
 	padding:10px;
 	padding-left:0px;
@@ -205,5 +216,29 @@ a:hover {
 		}
 }
 
+.section-images img{
+	max-width: 100%;
+	padding: 30px;
+}
 
+/*-------- page style ---------------*/
+.section-text{
+padding: 30px;
+}
 
+.key-item{
+	padding-bottom: 20px;
+}
+ .section-key{
+	padding: 30px;
+	padding-bottom:0px;
+	background-color:   #f8e24d;
+ }
+
+ .section-title{
+	 padding-left:30px;
+ }
+
+ .section-images{
+	 padding-bottom: 45px;
+ }
