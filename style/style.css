@@ -149,7 +149,7 @@ h5{
 
 /* ---- Home Page Buttons ----- */
 
-.home-tools-section , .home-client-section , .home-research-section , .home-graphic-section {
+.home-tools-section , .home-client-section  , .home-graphic-section {
 	padding: 30px;
 	text-align: left;
 }
@@ -178,6 +178,8 @@ h5{
 	.home-tools-section{
 		text-align: center;
 	}
+
+
 }
 
 
@@ -202,6 +204,10 @@ h5{
 	.home-section-title {
 	font-size: 24px;
 	}
+
+	.graphic , .client {
+		text-align: right;
+		}
 }
 
 	@media screen and (min-width: 1450px) {
