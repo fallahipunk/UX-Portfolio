@@ -58,6 +58,18 @@ h5{
 	
 }
 
+@media screen and (max-width: 420px) {
+	.title-name a{
+  	  	font-size: 27px;
+	}
+	.title-tag {
+		font-size: 18px;
+		margin-top:-9px;
+		padding-bottom:3px;
+	}
+	
+}
+
 .header-social{
 	padding-top:15px;
 }
